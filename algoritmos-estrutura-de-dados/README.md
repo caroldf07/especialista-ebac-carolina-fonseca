@@ -29,7 +29,7 @@ Sua implementação aceitará somente inteiros e deverá conter os seguintes mé
 
 > Note: Não use a Fila da linguagem Java, faça a sua!
 
-## 3. Implemente uma lista encadeada ✅
+## 3. Implemente uma lista encadeada 🚧
 
 Com base no que foi aprendido no módulo 1, implemente uma classe que represente uma estrutura de dados de Lista Encadeada. 
 Sua implementação aceitará somente inteiros e deverá conter os seguintes métodos:

@@ -28,11 +28,6 @@ public class ListaEncadeada {
     private NO fim;
     private int size;
 
-    /*Node(LinkedList.Node<E> prev, E element, LinkedList.Node<E> next) {
-        this.item = element;
-        this.next = next;
-        this.prev = prev;
-    }*/
     public void push(int novoDado) {
         NO ultimo = fim;
         NO novo = new NO(novoDado, null, ultimo);
@@ -46,7 +41,7 @@ public class ListaEncadeada {
     }
 
     public boolean isEmpty() {
-        return inicio == null;
+        return size == 0;
     }
 
     public int size() {

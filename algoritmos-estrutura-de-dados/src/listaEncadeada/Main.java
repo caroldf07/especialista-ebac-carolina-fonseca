@@ -73,7 +73,7 @@ public class Main {
                 }
             }
 
-            if (opcao == 6) {
+            if (opcao == 7) {
                 if (lista.isEmpty()) System.out.println(LISTA_VAZIA);
                 else {
                     lista.printList();
