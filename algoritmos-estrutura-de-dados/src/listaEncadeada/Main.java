@@ -38,7 +38,7 @@ public class Main {
                 else System.out.println("O tamanho da lista é: " + lista.size());
             }
 
-  /*           if (opcao == 3) {
+            if (opcao == 3) {
                 if (lista.isEmpty()) System.out.println(LISTA_VAZIA);
                 else {
                     System.out.println("Digite valor inteiro para o dado a ser inserido: ");
@@ -49,11 +49,12 @@ public class Main {
                 }
             }
             if (opcao == 4) {
-                if (fila.isEmpty()) System.out.println(FILA_VAZIA);
+                if (lista.isEmpty()) System.out.println(LISTA_VAZIA);
                 else {
-                    System.out.println("O item no início da fila é: " + fila.front());
+                    lista.pop();
+                    System.out.println("Item removido com sucesso");
                 }
-            }*/
+            }
 
             if (opcao == 5) {
                 if (lista.isEmpty()) System.out.println(LISTA_VAZIA);
@@ -61,6 +62,21 @@ public class Main {
                     System.out.println("Digite a posição do elemento que deseja remover: ");
                     lista.remove(entrada.nextInt());
                     System.out.println("Item removido com sucesso");
+                }
+            }
+
+            if (opcao == 6) {
+                if (lista.isEmpty()) System.out.println(LISTA_VAZIA);
+                else {
+                    System.out.println("Digite a posição do elemento que deseja consultar: ");
+                    System.out.println("O nó é: " + lista.elementAt(entrada.nextInt()).toString());
+                }
+            }
+
+            if (opcao == 6) {
+                if (lista.isEmpty()) System.out.println(LISTA_VAZIA);
+                else {
+                    lista.printList();
                 }
             }
         } while (opcao != 0);

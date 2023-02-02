@@ -1,6 +1,6 @@
 # Exercícios
 
-## 1. Implemente uma pilha
+## 1. Implemente uma pilha ✅
 Com base no que foi aprendido no módulo 1, implemente uma classe que represente uma estrutura de dados de Pilha. 
 
 Sua implementação aceitará somente inteiros e deverá conter os seguintes métodos:
@@ -13,7 +13,7 @@ Sua implementação aceitará somente inteiros e deverá conter os seguintes mé
 
 > Note: Não use a Pilha da linguagem Java, faça a sua!
 
-## 2. Implemente uma fila FIFO
+## 2. Implemente uma fila FIFO ✅
 
 Com base no que foi aprendido no módulo 1, implemente uma classe que represente uma estrutura de 
 dados de Fila (FIFO – first in, first out). 
@@ -29,7 +29,7 @@ Sua implementação aceitará somente inteiros e deverá conter os seguintes mé
 
 > Note: Não use a Fila da linguagem Java, faça a sua!
 
-## 3. Implemente uma lista encadeada
+## 3. Implemente uma lista encadeada ✅
 
 Com base no que foi aprendido no módulo 1, implemente uma classe que represente uma estrutura de dados de Lista Encadeada. 
 Sua implementação aceitará somente inteiros e deverá conter os seguintes métodos:
@@ -44,7 +44,7 @@ Sua implementação aceitará somente inteiros e deverá conter os seguintes mé
 
 > Note: Não use a Lista Encadeada da linguagem Java, faça a sua!
 
-## 4. Complexidades assintóticas de tempo e espaço
+## 4. Complexidades assintóticas de tempo e espaço 🚧
 Usando como base suas implementações dos exercícios de 1 a 3, calcule a complexidade assintótica de tempo e de espaço das estruturas de dados que você criou. 
 
 A complexidade de tempo deverá ser calculada para os métodos definidos abaixo:
@@ -59,7 +59,7 @@ Justifique seus resultados, sua implementação pode diferir da definição padr
 
 > É normal que os cálculos variem de acordo com a implementação!
 
-## Desafio
+## Desafio 🔒️
 Com base no que foi aprendido no módulo 1, implemente uma classe que represente uma estrutura de dados de Mapa de Hash. 
 
 Sua implementação aceitará somente inteiros (chave e valor), terá tamanho fixo de 10 elementos e deverá conter os seguintes métodos:
